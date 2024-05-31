@@ -2,7 +2,7 @@
 基于[go-captcha](https://github.com/wenlng/go-captcha)的二次开发,
 
 ## 一、安装
-`go get -u https://github.com/hulutech-web/goravel-captcha`
+```go get -u https://github.com/hulutech-web/goravel-captcha```
 ## 二、配置
 项目的`config/app.go`下
 ```go
