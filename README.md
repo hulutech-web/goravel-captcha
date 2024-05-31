@@ -130,4 +130,8 @@ func (c *CaptchaController) PostCaptcha(ctx http.Context) http.Response {
 }
 ```
 ### 六、预览效果，前端由[goravel-captcha-vue](https://github.com/wenlng/go-captcha-vue)提供，无需自行实现
-![image](https://user-images.githubusercontent.com/12495351/180748182-45641031-2514-420a-8533-000584098388.png)
+![image](https://github.com/hulu-web/go-captcha/images/default.png)
+![image](https://github.com/hulu-web/go-captcha/images/success.png)
+![image](https://github.com/hulu-web/go-captcha/images/validated.png)
+![image](https://github.com/hulu-web/go-captcha/images/validating.png)
+
