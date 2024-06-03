@@ -61,7 +61,7 @@ type CharDot struct {
 }
 ```
 
-### 4.2 提交验证参数,返回类型`CaptchaReq`，该类型由前端配套组件[goravel-captcha-vue](https://github.com/wenlng/go-captcha-vue)提供，无需自行实现
+### 4.2 提交验证参数,返回类型`CaptchaReq`，该类型由前端配套组件[goravel-captcha-vue](https://github.com/hulutech-web/goravel-captcha-vue)提供，无需自行实现
 ```go
 type CaptchaReq struct {
 		Dots string `json:"dots"`
@@ -131,7 +131,7 @@ func (c *CaptchaController) PostCaptcha(ctx http.Context) http.Response {
 	})
 }
 ```
-### 六、预览效果，前端由[goravel-captcha-vue](https://github.com/wenlng/go-captcha-vue)提供，无需自行实现
+### 六、预览效果，前端由[goravel-captcha-vue](https://github.com/hulutech-web/goravel-captcha)提供，无需自行实现
 ![image](https://github.com/hulutech-web/goravel-captcha/blob/master/images/default.png?raw=true)
 ![image](https://github.com/hulutech-web/goravel-captcha/blob/master/images/success.png?raw=true)
 ![image](https://github.com/hulutech-web/goravel-captcha/blob/master/images/validating.png?raw=true)
