@@ -872,11 +872,11 @@ func InitConfig() *Captcha {
 	//// Desc: Set random image of background
 	//// ====================================================
 	capt.SetBackground([]string{
-		path + "/packages/" + "captcha/resources/images/1.jpg",
-		path + "/packages/" + "captcha/resources/images/2.jpg",
-		path + "/packages/" + "captcha/resources/images/3.jpg",
-		path + "/packages/" + "captcha/resources/images/4.jpg",
-		path + "/packages/" + "captcha/resources/images/5.jpg",
+		path + "/resources/images/1.jpg",
+		path +  "/resources/images/2.jpg",
+		path +  "/resources/images/3.jpg",
+		path +  "/resources/images/4.jpg",
+		path +  "/resources/images/5.jpg",
 	})
 
 	// ====================================================
