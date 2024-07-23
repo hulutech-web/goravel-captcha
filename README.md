@@ -3,7 +3,7 @@
 
 ## 一、安装
 ```go
-go get -u https://github.com/hulutech-web/goravel-captcha
+go get github.com/hulutech-web/goravel-captcha
 ```
 ## 二、配置
 项目的`config/app.go`下
