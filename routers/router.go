@@ -2,7 +2,7 @@ package routers
 
 import (
 	"github.com/goravel/framework/contracts/foundation"
-	"goravel/packages/captcha/controllers"
+	"github.com/hulutech-web/goravel-captcha/captcha/controllers"
 )
 
 func InitCaptcha(app foundation.Application) {

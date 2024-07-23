@@ -1,8 +1,8 @@
 package assets
 
 import (
-	"goravel/packages/captcha/assets/fonts"
-	"goravel/packages/captcha/assets/images"
+	"github.com/hulutech-web/goravel-captcha/assets/fonts"
+	"github.com/hulutech-web/goravel-captcha/assets/images"
 )
 
 type AssetData struct {

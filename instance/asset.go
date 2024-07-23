@@ -1,6 +1,6 @@
 package instance
 
-import "goravel/packages/captcha/assets"
+import "github.com/hulutech-web/goravel-captcha/assets"
 
 /**
  * @Description: 获取缓存资源
