@@ -1,5 +1,5 @@
 # goravel-captcha
-基于[go-captcha](https://github.com/wenlng/go-captcha)的二次开发,
+一个go语言开发的，基于goravel框架的行为验证码。
 
 ## 一、安装
 ```go
