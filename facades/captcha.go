@@ -1,8 +1,8 @@
 package facades
 
 import (
-	"goravel/packages/captcha"
-	"goravel/packages/captcha/contracts"
+	"github.com/hulutech-web/goravel-captcha"
+	"github.com/hulutech-web/goravel-captcha/contracts"
 	"log"
 )
 

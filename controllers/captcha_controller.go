@@ -2,7 +2,7 @@ package controllers
 
 import (
 	"github.com/goravel/framework/contracts/http"
-	Capt "goravel/packages/captcha/instance"
+	Capt "github.com/hulutech-web/goravel-captcha/instance"
 )
 
 type CaptchaController struct {
