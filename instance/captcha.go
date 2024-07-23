@@ -868,7 +868,7 @@ func InitConfig() *Captcha {
 	capt := GetCaptcha()
 	// path, _ := os.Getwd()
 	// path:="https://github.com/hulutech-web/goravel-captcha/blob/master"
-	path:="https://raw.githubusercontent.com/hulutech-web/goravel-captcha/master/resources/images/1.jpg"
+	path:="https://raw.githubusercontent.com/hulutech-web/goravel-captcha/master"
 	//// ====================================================
 	//// Method: SetBackground(color []string);
 	//// Desc: Set random image of background
