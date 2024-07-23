@@ -2,7 +2,7 @@ package instance
 
 import (
 	"golang.org/x/image/font"
-	"goravel/packages/captcha/assets"
+	"github.com/hulutech-web/goravel-captcha/assets"
 )
 
 // RangeVal is a type
