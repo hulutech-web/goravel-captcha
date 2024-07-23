@@ -2,7 +2,7 @@ package captcha
 
 import (
 	"github.com/goravel/framework/contracts/foundation"
-	"goravel/packages/captcha/routers"
+	"github.com/hulutech-web/goravel-captcha/routers"
 )
 
 const Binding = "captcha"
