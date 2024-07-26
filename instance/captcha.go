@@ -16,6 +16,7 @@ import (
 	"strings"
 	"sync"
 	"time"
+	"net/url"
 )
 
 // CharDot is a type
@@ -872,13 +873,14 @@ func InitConfig() *Captcha {
 	//// ====================================================
 	//// Method: SetBackground(color []string);
 	//// Desc: Set random image of background
+	//  net work url
 	//// ====================================================
+	u1, _ := url.Parse(fmt.Sprintf("%s/resources/images/1.jpg", path))
+	u2, _ := url.Parse(fmt.Sprintf("%s/resources/images/2.jpg", path))
+	u3, _ := url.Parse(fmt.Sprintf("%s/resources/images/3.jpg", path))
+	u4, _ := url.Parse(fmt.Sprintf("%s/resources/images/4.jpg", path))
 	capt.SetBackground([]string{
-		path + "/resources/images/1.jpg",
-		path +  "/resources/images/2.jpg",
-		path +  "/resources/images/3.jpg",
-		path +  "/resources/images/4.jpg",
-		path +  "/resources/images/5.jpg",
+		u1,u2, u3, u4,
 	})
 
 	// ====================================================
